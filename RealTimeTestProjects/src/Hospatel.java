@@ -1,6 +1,5 @@
 
 public class Hospatel {
-	
 	int pid;
 	String pname;
 	String pprob;
@@ -10,16 +9,12 @@ public class Hospatel {
 		pid=id;
 		pname=name;
 		pprob=prob;
-		
-		
-	}
-	
+		}
 	void display() {
 		
-		System.out.println("Patient Details:"+pid+" "+pname+" "+pprob);
+System.out.println("Patient Details:"+pid+" "+pname+" "+pprob);
 		
-		
-	}
+		}
 	public static void main(String[] args) {
 		
 		 Hospatel h=new  Hospatel(10,"ramki","lowbp");
